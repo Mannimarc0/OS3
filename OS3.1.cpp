@@ -103,7 +103,6 @@ int main() {
                 Sleep(0);
             }
 
-            // Теперь поток гарантированно в SuspendThread(self).
             // Выдаём ему следующий блок или сигнал на выход.
             if (nextBlock < TOTAL_BLOCKS) {
                 currentBlock[i] = nextBlock++;
